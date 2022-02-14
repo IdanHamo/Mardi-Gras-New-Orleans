@@ -54,3 +54,11 @@
     width: 400px;
   }
 }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  .suppliers {
+    min-height: 300px;
+  }
+}
