@@ -1,4 +1,55 @@
-#logo-img {
-  width: 75px;
+.link1 {
+  background-color: #9453a6;
+}
+
+.link2 {
+  background-color: #8cbf3f;
+}
+
+.link3 {
+  background-color: #f2f2f2;
+}
+
+.link4 {
+  background-color: #f2cc0f;
+}
+
+.div-one {
+  -webkit-margin-start: 8%;
+          margin-inline-start: 8%;
+  width: 80vw;
+  height: 400px;
+  background-color: #f2f2f2;
+}
+
+.div-one .info-div {
+  border: 2px solid black;
+  height: 400px;
+  position: relative;
+}
+
+.div-one .info-div .title {
+  font-family: "Henny Penny";
+}
+
+.div-one .info-div #title-1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.div-one .info-div #title-2 {
+  position: absolute;
+  top: 110px;
+  left: 50px;
+}
+
+.img-div {
+  height: 400px;
+  text-align: center;
+}
+
+.img-div #img {
+  width: 400px;
 }
 /*# sourceMappingURL=style.css.map */
