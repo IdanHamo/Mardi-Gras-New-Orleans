@@ -1,3 +1,13 @@
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Henny Penny";
+}
+
 .link1 {
   background-color: #9453a6;
 }
@@ -23,7 +33,7 @@
 }
 
 .div-one .info-div {
-  border: 2px solid black;
+  padding: 50px;
   height: 400px;
   position: relative;
 }
@@ -33,15 +43,45 @@
 }
 
 .div-one .info-div #title-1 {
-  position: absolute;
-  top: 50px;
-  left: 50px;
+  color: #9453a6;
 }
 
-.div-one .info-div #title-2 {
-  position: absolute;
-  top: 110px;
-  left: 50px;
+.div-one .info-div .firstp {
+  width: 70%;
+}
+
+.div-one .info-div .firstp .questions {
+  font-family: "Roboto", sans-serif;
+}
+
+.div-one .info-div .firstp .questions.quest1 {
+  color: #9453a6;
+  font-size: 23px;
+}
+
+.div-one .info-div .firstp .questions.quest2 {
+  color: #8cbf3f;
+  font-size: 18px;
+}
+
+.div-one .info-div .firstp .questions.quest3 {
+  color: #f2cc0f;
+  font-size: 21px;
+}
+
+.div-one .info-div .firstp .questions.quest4 {
+  color: #0d0d0d;
+  font-size: 23px;
+}
+
+.div-one .info-div .firstp .questions.quest5 {
+  color: #9453a6;
+  font-size: 23px;
+}
+
+.div-one .info-div .secondp {
+  font-family: "Roboto", sans-serif;
+  width: 70%;
 }
 
 .img-div {

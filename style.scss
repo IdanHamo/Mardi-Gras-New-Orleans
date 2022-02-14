@@ -8,5 +8,14 @@ $hfont: "Henny Penny";
 $smallhfont: "Pattaya";
 $pfont: "Roboto", sans-serif;
 
+p {
+  font-family: $pfont;
+}
+h1,
+h2,
+h3 {
+  font-family: $hfont;
+}
+
 @import "header";
 @import "firstdiv";

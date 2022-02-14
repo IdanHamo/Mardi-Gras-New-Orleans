@@ -4,21 +4,46 @@
   height: 400px;
   background-color: $grey;
   .info-div {
-    border: 2px solid black;
+    padding: 50px;
     height: 400px;
     position: relative;
     .title {
       font-family: $hfont;
     }
     #title-1 {
-      position: absolute;
-      top: 50px;
-      left: 50px;
+      color: $pink;
     }
-    #title-2 {
-      position: absolute;
-      top: 110px;
-      left: 50px;
+
+    .firstp {
+      width: 70%;
+
+      .questions {
+        font-family: $pfont;
+        &.quest1 {
+          color: $pink;
+          font-size: 23px;
+        }
+        &.quest2 {
+          color: $green;
+          font-size: 18px;
+        }
+        &.quest3 {
+          color: $yellow;
+          font-size: 21px;
+        }
+        &.quest4 {
+          color: $black;
+          font-size: 23px;
+        }
+        &.quest5 {
+          color: $pink;
+          font-size: 23px;
+        }
+      }
+    }
+    .secondp {
+      font-family: $pfont;
+      width: 70%;
     }
   }
 }
