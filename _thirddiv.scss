@@ -1,0 +1,28 @@
+.third-div {
+  margin-block-start: 50px;
+  height: 470px;
+  margin-left: 14%;
+  .row {
+    height: 100%;
+
+    .img {
+      img {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    }
+    .quest1-info {
+      height: 100%;
+      background-color: $black;
+      .third-div-title {
+        text-align: center;
+        color: $pink;
+      }
+      .para {
+        color: $pink;
+        font-size: 18px;
+      }
+    }
+  }
+}

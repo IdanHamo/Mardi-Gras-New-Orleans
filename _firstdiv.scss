@@ -1,64 +1,22 @@
-.div-one {
-  margin-inline-start: 8%;
-  width: 80vw;
-  height: 400px;
-  background-color: $grey;
-  .info-div {
-    padding: 50px;
-    height: 400px;
-    position: relative;
-    .title {
-      font-family: $hfont;
-    }
-    #title-1 {
-      color: $pink;
-    }
+#header-page {
+  height: 600px;
+  background-image: url(photos/lady.jpg);
+  background-repeat: no-repeat;
+  position: relative;
 
-    .firstp {
-      width: 70%;
-
-      .questions {
-        font-family: $pfont;
-        &.quest1 {
-          color: $pink;
-          font-size: 23px;
-        }
-        &.quest2 {
-          color: $green;
-          font-size: 18px;
-        }
-        &.quest3 {
-          color: $yellow;
-          font-size: 21px;
-        }
-        &.quest4 {
-          color: $black;
-          font-size: 23px;
-        }
-        &.quest5 {
-          color: $pink;
-          font-size: 23px;
-        }
-      }
-    }
-    .secondp {
-      font-family: $pfont;
-      width: 70%;
-    }
+  .title {
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    color: $grey;
+    font-size: 50px;
   }
-}
-.img-div {
-  height: 400px;
-  text-align: center;
-  #img {
-    width: 400px;
-  }
-}
-
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  .suppliers {
-    min-height: 300px;
+  .title2 {
+    text-align: right;
+    position: absolute;
+    font-size: 40px;
+    left: 75%;
+    top: 65%;
+    color: $grey;
   }
 }

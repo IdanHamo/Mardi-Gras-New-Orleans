@@ -8,6 +8,9 @@ $hfont: "Henny Penny";
 $smallhfont: "Pattaya";
 $pfont: "Roboto", sans-serif;
 
+body {
+  background-color: $grey;
+}
 p {
   font-family: $pfont;
 }
@@ -19,3 +22,5 @@ h3 {
 
 @import "header";
 @import "firstdiv";
+@import "seconddiv";
+@import "thirddiv";
