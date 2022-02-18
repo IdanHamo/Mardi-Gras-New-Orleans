@@ -20,7 +20,8 @@ h3 {
   font-family: $hfont;
 }
 
-@import "header";
-@import "firstdiv";
-@import "seconddiv";
-@import "thirddiv";
+@import "SCSS/header";
+@import "SCSS/firstdiv";
+@import "SCSS/seconddiv";
+@import "SCSS/thirddiv";
+@import "SCSS/slider";

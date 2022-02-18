@@ -143,4 +143,9 @@ img {
   color: #9453a6;
   font-size: 18px;
 }
+
+.special {
+  -webkit-margin-before: 50px;
+          margin-block-start: 50px;
+}
 /*# sourceMappingURL=style.css.map */
