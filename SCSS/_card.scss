@@ -1,0 +1,31 @@
+section {
+  margin-block-start: 100px;
+
+  .card-div {
+    text-align: center;
+    .row {
+      margin-inline-start: 12%;
+      margin-inline-end: 12%;
+      justify-content: space-evenly;
+      margin-block-start: 50px;
+      .card {
+        margin-block-start: 20px;
+        .card-body {
+          .card-title {
+            font-family: $hfont;
+          }
+          .card-text {
+            font-family: $pfont;
+          }
+        }
+        .links {
+          background-color: $pink;
+          border: 1px solid $green;
+          &:hover {
+            background-color: $yellow;
+          }
+        }
+      }
+    }
+  }
+}

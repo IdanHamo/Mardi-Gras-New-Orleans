@@ -1,3 +1,19 @@
 .special {
   margin-block-start: 50px;
+  .carousel-inner {
+    .carousel-item {
+      h5 {
+        color: $pink;
+        font-family: $black;
+        font-weight: 800;
+        font-size: 1.6rem;
+      }
+      p {
+        color: $black;
+        font-family: $hfont;
+        font-weight: 800;
+        font-size: 1.2rem;
+      }
+    }
+  }
 }

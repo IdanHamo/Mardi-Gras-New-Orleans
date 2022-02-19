@@ -8,7 +8,9 @@ p {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h6 {
   font-family: "Henny Penny";
 }
 
@@ -147,5 +149,62 @@ img {
 .special {
   -webkit-margin-before: 50px;
           margin-block-start: 50px;
+}
+
+.special .carousel-inner .carousel-item h5 {
+  color: #9453a6;
+  font-family: #0d0d0d;
+  font-weight: 800;
+  font-size: 1.6rem;
+}
+
+.special .carousel-inner .carousel-item p {
+  color: #0d0d0d;
+  font-family: "Henny Penny";
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+section {
+  -webkit-margin-before: 100px;
+          margin-block-start: 100px;
+}
+
+section .card-div {
+  text-align: center;
+}
+
+section .card-div .row {
+  -webkit-margin-start: 12%;
+          margin-inline-start: 12%;
+  -webkit-margin-end: 12%;
+          margin-inline-end: 12%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-margin-before: 50px;
+          margin-block-start: 50px;
+}
+
+section .card-div .row .card {
+  -webkit-margin-before: 20px;
+          margin-block-start: 20px;
+}
+
+section .card-div .row .card .card-body .card-title {
+  font-family: "Henny Penny";
+}
+
+section .card-div .row .card .card-body .card-text {
+  font-family: "Roboto", sans-serif;
+}
+
+section .card-div .row .card .links {
+  background-color: #9453a6;
+  border: 1px solid #8cbf3f;
+}
+
+section .card-div .row .card .links:hover {
+  background-color: #f2cc0f;
 }
 /*# sourceMappingURL=style.css.map */

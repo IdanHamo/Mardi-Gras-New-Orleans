@@ -16,7 +16,9 @@ p {
 }
 h1,
 h2,
-h3 {
+h3,
+h4,
+h6 {
   font-family: $hfont;
 }
 
@@ -25,3 +27,4 @@ h3 {
 @import "SCSS/seconddiv";
 @import "SCSS/thirddiv";
 @import "SCSS/slider";
+@import "SCSS/card";
