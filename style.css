@@ -207,4 +207,25 @@ section .card-div .row .card .links {
 section .card-div .row .card .links:hover {
   background-color: #f2cc0f;
 }
+
+footer {
+  -webkit-margin-before: 50px;
+          margin-block-start: 50px;
+}
+
+footer .footer-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer .footer-div .footer-info .footer-img {
+  width: 100px;
+}
 /*# sourceMappingURL=style.css.map */
