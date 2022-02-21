@@ -1,0 +1,24 @@
+.mayor-div {
+  margin-block-start: 50px;
+  min-height: 470px;
+  display: flex;
+  justify-content: center;
+  .row {
+    .mayor-img {
+      margin-block-start: 20px;
+      .mayor-photo {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .mayor-info {
+      margin-block-start: 20px;
+      background-color: $green;
+      font-family: $pfont;
+    }
+  }
+}
+
+#title-mayor {
+  text-align: center;
+}

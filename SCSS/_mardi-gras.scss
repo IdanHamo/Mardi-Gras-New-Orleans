@@ -1,0 +1,33 @@
+.mardi-gras {
+  margin-block-start: 50px;
+  min-height: 470px;
+  display: flex;
+  justify-content: center;
+  .row {
+    display: flex;
+    justify-content: center;
+    .image {
+      margin-block-start: 50px;
+      margin-block-end: 50px;
+    }
+
+    .mardi-gras-information {
+      font-family: $pfont;
+      background-color: $pink;
+      color: $yellow;
+      font-size: 18px;
+      &.p2 {
+        background-color: $green;
+        color: $grey;
+      }
+      &.p3 {
+        background-color: $grey;
+        color: $black;
+      }
+      &.p4 {
+        background-color: $yellow;
+        color: $pink;
+      }
+    }
+  }
+}
