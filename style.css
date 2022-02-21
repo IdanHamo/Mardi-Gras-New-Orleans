@@ -83,8 +83,9 @@ h6 {
 .second-div {
   -webkit-margin-before: 50px;
           margin-block-start: 50px;
-  height: 470px;
-  margin-left: 14%;
+  min-height: 470px;
+  -webkit-margin-start: 14%;
+          margin-inline-start: 14%;
 }
 
 .second-div .question {
@@ -117,7 +118,7 @@ img {
 .third-div {
   -webkit-margin-before: 50px;
           margin-block-start: 50px;
-  height: 470px;
+  min-height: 470px;
   margin-left: 14%;
 }
 
@@ -134,6 +135,8 @@ img {
 .third-div .row .quest1-info {
   height: 100%;
   background-color: #0d0d0d;
+  -webkit-margin-before: 50px;
+          margin-block-start: 50px;
 }
 
 .third-div .row .quest1-info .third-div-title {

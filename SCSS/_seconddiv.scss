@@ -1,7 +1,7 @@
 .second-div {
   margin-block-start: 50px;
-  height: 470px;
-  margin-left: 14%;
+  min-height: 470px;
+  margin-inline-start: 14%;
   .question {
     height: 440px;
     background-color: $black;

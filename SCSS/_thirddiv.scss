@@ -1,6 +1,6 @@
 .third-div {
   margin-block-start: 50px;
-  height: 470px;
+  min-height: 470px;
   margin-left: 14%;
   .row {
     height: 100%;
@@ -15,6 +15,7 @@
     .quest1-info {
       height: 100%;
       background-color: $black;
+      margin-block-start: 50px;
       .third-div-title {
         text-align: center;
         color: $pink;
