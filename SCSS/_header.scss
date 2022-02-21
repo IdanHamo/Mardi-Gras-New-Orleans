@@ -2,6 +2,7 @@
   background-color: $grey !important;
   .link1 {
     background-color: $pink;
+    font-family: $pfont;
     color: $grey !important;
     &:hover {
       -webkit-box-shadow: -9px 5px 15px 5px $pink, -7px -5px 15px 5px $green,
@@ -16,6 +17,8 @@
   }
   .link2 {
     background-color: $green;
+    font-family: $pfont;
+
     &:hover {
       -webkit-box-shadow: -9px 5px 15px 5px $pink, -7px -5px 15px 5px $green,
         12px -5px 15px 5px $grey, 12px 10px 15px 7px $yellow,
@@ -28,6 +31,8 @@
   }
   .link3 {
     background-color: $grey;
+    font-family: $pfont;
+
     &:hover {
       -webkit-box-shadow: -9px 5px 15px 5px $pink, -7px -5px 15px 5px $green,
         12px -5px 15px 5px $grey, 12px 10px 15px 7px $yellow,
@@ -40,6 +45,8 @@
   }
   .link4 {
     background-color: $yellow;
+    font-family: $pfont;
+
     &:hover {
       -webkit-box-shadow: -9px 5px 15px 5px $pink, -7px -5px 15px 5px $green,
         12px -5px 15px 5px $grey, 12px 10px 15px 7px $yellow,

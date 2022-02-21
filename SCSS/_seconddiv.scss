@@ -8,12 +8,14 @@
     background-color: $black;
     h3 {
       color: $green;
+      font-family: $hfont;
     }
     ul {
       color: $green;
       a {
         color: $green;
         text-decoration: none;
+        font-family: $pfont;
       }
     }
   }

@@ -22,6 +22,8 @@ section {
         .links {
           background-color: $pink;
           border: 1px solid $green;
+          font-family: $pfont;
+
           &:hover {
             background-color: $yellow;
           }
