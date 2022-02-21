@@ -60,6 +60,18 @@ h6 {
   background-color: #9453a6;
 }
 
+#header-page {
+  position: relative;
+}
+
+#header-page #secendary-photo {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .second-div {
   -webkit-margin-before: 50px;
           margin-block-start: 50px;
