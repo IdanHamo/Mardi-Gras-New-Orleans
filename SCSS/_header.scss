@@ -58,4 +58,20 @@
       background-color: $pink;
     }
   }
+  .link5 {
+    background-color: $pink;
+    font-family: $pfont;
+    color: $grey !important;
+
+    &:hover {
+      -webkit-box-shadow: -9px 5px 15px 5px $pink, -7px -5px 15px 5px $green,
+        12px -5px 15px 5px $grey, 12px 10px 15px 7px $yellow,
+        -10px -7px 27px 1px $pink, 5px 5px 15px 5px $black;
+      box-shadow: -9px 5px 15px 5px $yellow, -7px -5px 15px 5px $green,
+        12px -5px 15px 5px $black, 12px 10px 15px 7px $pink,
+        -10px -7px 27px 1px $pink, 5px 5px 15px 5px $black;
+
+      background-color: $pink;
+    }
+  }
 }
