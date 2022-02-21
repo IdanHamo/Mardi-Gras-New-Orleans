@@ -1,9 +1,10 @@
 .second-div {
   margin-block-start: 50px;
   min-height: 470px;
-  margin-inline-start: 14%;
+  display: flex;
+  justify-content: center;
+
   .question {
-    height: 440px;
     background-color: $black;
     h3 {
       color: $green;
@@ -15,9 +16,6 @@
         text-decoration: none;
       }
     }
-  }
-  .slider {
-    height: 440px;
   }
 }
 img {

@@ -1,29 +1,23 @@
 .third-div {
   margin-block-start: 50px;
   min-height: 470px;
-  margin-left: 14%;
-  .row {
-    height: 100%;
+  display: flex;
+  justify-content: center;
 
-    .img {
-      img {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-      }
+  .quest1-info {
+    background-color: $black;
+
+    .third-div-title {
+      text-align: center;
+      color: $pink;
     }
-    .quest1-info {
-      height: 100%;
-      background-color: $black;
-      margin-block-start: 50px;
-      .third-div-title {
-        text-align: center;
-        color: $pink;
-      }
-      .para {
-        color: $pink;
-        font-size: 18px;
-      }
+    .para {
+      color: $pink;
+      font-size: 18px;
     }
   }
+}
+img {
+  width: 100%;
+  height: 100%;
 }
