@@ -101,7 +101,7 @@ h6 {
 }
 
 .second-div .question {
-  background-color: #0d0d0d;
+  background-color: #9453a6;
 }
 
 .second-div .question h3 {
@@ -137,7 +137,7 @@ img {
 }
 
 .third-div .quest1-info {
-  background-color: #0d0d0d;
+  background-color: #8cbf3f;
 }
 
 .third-div .quest1-info .third-div-title {
@@ -158,25 +158,30 @@ img {
 .special {
   -webkit-margin-before: 50px;
           margin-block-start: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .special .carousel-inner .carousel-item h5 {
   color: #9453a6;
   font-family: "Henny Penny";
-  font-weight: 800;
+  font-weight: 900;
   font-size: 1.6rem;
+  background-color: rgba(255, 255, 255, 0.055);
 }
 
 .special .carousel-inner .carousel-item p {
   color: #0d0d0d;
   font-family: "Henny Penny";
-  font-weight: 800;
+  font-weight: 900;
   font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.055);
 }
 
 section {
-  -webkit-margin-before: 100px;
-          margin-block-start: 100px;
+  -webkit-margin-before: 20px;
+          margin-block-start: 20px;
 }
 
 section .card-div {

@@ -1,18 +1,21 @@
 .special {
   margin-block-start: 50px;
+  justify-content: center;
   .carousel-inner {
     .carousel-item {
       h5 {
         color: $pink;
         font-family: $hfont;
-        font-weight: 800;
+        font-weight: 900;
         font-size: 1.6rem;
+        background-color: rgba(255, 255, 255, 0.055);
       }
       p {
         color: $black;
         font-family: $hfont;
-        font-weight: 800;
+        font-weight: 900;
         font-size: 1.2rem;
+        background-color: rgba(255, 255, 255, 0.055);
       }
     }
   }
