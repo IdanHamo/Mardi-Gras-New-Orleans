@@ -1,0 +1,19 @@
+form {
+  text-align: center;
+  margin-block-start: 50px;
+
+  input {
+    width: 300px;
+    border: 2px solid $pink;
+    border-radius: 15px;
+    text-align: center;
+  }
+  #text-area {
+    height: 200px;
+  }
+}
+.img {
+  display: flex;
+  justify-content: center;
+  margin-block-start: 50px;
+}

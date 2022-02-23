@@ -326,4 +326,32 @@ footer .footer-div .footer-info .footer-img {
   background-color: #f2cc0f;
   color: #9453a6;
 }
+
+form {
+  text-align: center;
+  -webkit-margin-before: 50px;
+          margin-block-start: 50px;
+}
+
+form input {
+  width: 300px;
+  border: 2px solid #9453a6;
+  border-radius: 15px;
+  text-align: center;
+}
+
+form #text-area {
+  height: 200px;
+}
+
+.img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-margin-before: 50px;
+          margin-block-start: 50px;
+}
 /*# sourceMappingURL=style.css.map */
