@@ -28,8 +28,7 @@ h6 {
 .navbar .link1:hover {
   -webkit-box-shadow: -9px 5px 15px 5px #9453a6, -7px -5px 15px 5px #8cbf3f, 12px -5px 15px 5px #f2f2f2, 12px 10px 15px 7px #f2cc0f, -10px -7px 27px 1px #9453a6, 5px 5px 15px 5px #0d0d0d;
   box-shadow: -9px 5px 15px 5px #f2cc0f, -7px -5px 15px 5px #8cbf3f, 12px -5px 15px 5px #0d0d0d, 12px 10px 15px 7px #9453a6, -10px -7px 27px 1px #9453a6, 5px 5px 15px 5px #0d0d0d;
-  background-color: #f2f2f2;
-  color: #9453a6;
+  background-color: #0d0d0d;
 }
 
 .navbar .link2 {
@@ -74,7 +73,15 @@ h6 {
 .navbar .link5:hover {
   -webkit-box-shadow: -9px 5px 15px 5px #9453a6, -7px -5px 15px 5px #8cbf3f, 12px -5px 15px 5px #f2f2f2, 12px 10px 15px 7px #f2cc0f, -10px -7px 27px 1px #9453a6, 5px 5px 15px 5px #0d0d0d;
   box-shadow: -9px 5px 15px 5px #f2cc0f, -7px -5px 15px 5px #8cbf3f, 12px -5px 15px 5px #0d0d0d, 12px 10px 15px 7px #9453a6, -10px -7px 27px 1px #9453a6, 5px 5px 15px 5px #0d0d0d;
-  background-color: #9453a6;
+  background-color: #f2f2f2;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #f2f2f2;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #0d0d0d;
 }
 
 #header-page {
@@ -339,10 +346,15 @@ form input {
   border: 2px solid #9453a6;
   border-radius: 15px;
   text-align: center;
+  background-color: #f2cc0f;
 }
 
 form #text-area {
   height: 200px;
+}
+
+form #submit {
+  width: 150px;
 }
 
 .img {
@@ -354,5 +366,48 @@ form #text-area {
           justify-content: center;
   -webkit-margin-before: 50px;
           margin-block-start: 50px;
+}
+
+.header-title {
+  -webkit-margin-before: 50px;
+          margin-block-start: 50px;
+  text-align: center;
+  color: #8cbf3f;
+}
+
+.accordion-button {
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f2f2;
+  color: #0d0d0d;
+}
+
+.item1 {
+  background-color: #9453a6;
+}
+
+.item2 {
+  background-color: #f2f2f2;
+}
+
+.item3 {
+  background-color: #f2cc0f;
+}
+
+.item4 {
+  background-color: #8cbf3f;
+}
+
+.item5 {
+  background-color: #9453a6;
+}
+
+.accordion-links {
+  font-family: "Pattaya";
+  text-decoration: none;
+  color: #0d0d0d;
+}
+
+.accordion-body {
+  font-family: "Roboto", sans-serif !important;
 }
 /*# sourceMappingURL=style.css.map */

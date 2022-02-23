@@ -7,13 +7,23 @@ form {
     border: 2px solid $pink;
     border-radius: 15px;
     text-align: center;
+    background-color: $yellow;
   }
   #text-area {
     height: 200px;
+  }
+  #submit {
+    width: 150px;
   }
 }
 .img {
   display: flex;
   justify-content: center;
   margin-block-start: 50px;
+}
+
+.header-title {
+  margin-block-start: 50px;
+  text-align: center;
+  color: $green;
 }

@@ -13,8 +13,7 @@
       box-shadow: -9px 5px 15px 5px $yellow, -7px -5px 15px 5px $green,
         12px -5px 15px 5px $black, 12px 10px 15px 7px $pink,
         -10px -7px 27px 1px $pink, 5px 5px 15px 5px $black;
-      background-color: $grey;
-      color: $pink;
+      background-color: $black;
     }
   }
   .link2 {
@@ -73,7 +72,14 @@
         12px -5px 15px 5px $black, 12px 10px 15px 7px $pink,
         -10px -7px 27px 1px $pink, 5px 5px 15px 5px $black;
 
-      background-color: $pink;
+      background-color: $grey;
     }
   }
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: $grey;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: $black;
 }
