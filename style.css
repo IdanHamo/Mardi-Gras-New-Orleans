@@ -375,6 +375,15 @@ form #submit {
   color: #8cbf3f;
 }
 
+.para-contact {
+  text-align: center;
+}
+
+.para-contact .contact-link {
+  text-decoration: none;
+  color: #8cbf3f;
+}
+
 .accordion-button {
   font-family: "Roboto", sans-serif;
   background-color: #f2f2f2;

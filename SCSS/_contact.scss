@@ -27,3 +27,10 @@ form {
   text-align: center;
   color: $green;
 }
+.para-contact {
+  text-align: center;
+  .contact-link {
+    text-decoration: none;
+    color: $green;
+  }
+}
