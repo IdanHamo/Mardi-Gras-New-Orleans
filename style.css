@@ -384,6 +384,18 @@ form #submit {
   color: #8cbf3f;
 }
 
+@media only screen and (max-width: 767px) {
+  .desk {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .phone {
+    display: none;
+  }
+}
+
 .accordion-button {
   font-family: "Roboto", sans-serif;
   background-color: #f2f2f2;
@@ -418,5 +430,64 @@ form #submit {
 
 .accordion-body {
   font-family: "Roboto", sans-serif !important;
+}
+
+.lightbox-gallery {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9453a6), to(#8cbf3f));
+  background-image: linear-gradient(#9453a6, #8cbf3f);
+  background-repeat: no-repeat;
+  color: #000;
+  overflow-x: hidden;
+}
+
+.lightbox-gallery p {
+  color: #fff;
+}
+
+.lightbox-gallery h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .lightbox-gallery h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.lightbox-gallery .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 40px;
+}
+
+.lightbox-gallery .intro p {
+  margin-bottom: 0;
+}
+
+.lightbox-gallery .photos {
+  padding-bottom: 20px;
+}
+
+.lightbox-gallery .item {
+  padding-bottom: 30px;
+}
+
+.videos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.videos iframe {
+  -webkit-margin-before: 50px;
+          margin-block-start: 50px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -32,7 +32,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
+    <script src="email.js" defer></script>
   </head>
   <body>
     <!--NavBar-->
@@ -75,12 +75,14 @@
               <li class="nav-item ms-5 link5">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
+              <li class="nav-item ms-5 link6">
+                <a class="nav-link" href="trivia.html">Trivia</a>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-
     <!--Form-->
     <h1 class="header-title">Do you want to contact with us?</h1>
     <p class="para-contact">
@@ -93,23 +95,41 @@
     </p>
     <form action="">
       <label for="firstname" class="d-none d-md-block">First name</label>
-      <input type="text" id="firstname" placeholder="First name" /><br />
+      <input type="text" placeholder="First name" class="phone" required />
+      <input type="text" class="desk" name="firstname" required /><br /><br />
 
-      <label for="lastname" class="d-none d-md-block">Last name</label><br />
-      <input type="text" id="lastname" placeholder="Lat name" /><br />
+      <label for="lastname" class="d-none d-md-block">Last name</label>
+      <input type="text" placeholder="Last name" class="phone" required />
+      <input type="text" class="desk" name="lastname" required /><br /><br />
 
-      <label for="email" class="d-none d-md-block">email</label><br />
-      <input type="email" id="email" placeholder="Email" /><br />
+      <label for="email" class="d-none d-md-block">email</label>
+      <input
+        type="email"
+        name="emails"
+        placeholder="Email"
+        id="email1"
+        class="phone"
+        required
+      />
+      <input
+        type="email"
+        name="email"
+        class="desk"
+        id="email2"
+        required
+      /><br /><br />
 
       <label for="text-area" class="d-none d-md-block"
         >Do you have anything else to ask?</label
-      ><br />
+      >
       <input
+        class="phone"
         id="text-area"
         type="textarea"
         placeholder="For more question or anything else"
-      /><br /><br />
-      <input id="submit" type="Submit" value="send" />
+      />
+      <input class="desk" type="textarea" id="text-area" /><br /><br />
+      <button onclick="checkEmail()">Send Us</button>
     </form>
     <div class="img">
       <div class="row col-sm-12 col-md-8">
@@ -120,12 +140,8 @@
     <footer>
       <div class="footer-div">
         <div class="footer-info">
-          <p>
-            site by Idan Hamo<img
-              class="footer-img"
-              src="photos/logo.png"
-              alt="Mardi-Gras-New-Orleans logo"
-            />
+          <p class="text-center">
+            © 2022 Idan Hamo|All rights reserved|Terms of service|Privacy
           </p>
         </div>
       </div>
