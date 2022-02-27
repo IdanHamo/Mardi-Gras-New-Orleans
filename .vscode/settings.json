@@ -12,6 +12,7 @@
     "krewe",
     "krewes",
     "Laborde",
+    "lightbox",
     "Lockdown",
     "Marigny",
     "pfont",
@@ -21,5 +22,6 @@
     "smallhfont",
     "thirddiv"
   ],
-  "cSpell.ignoreWords": ["Bienville", "Iberville", "Plaquemines", "secondery"]
+  "cSpell.ignoreWords": ["Bienville", "Iberville", "Plaquemines", "secondery"],
+  "liveServer.settings.port": 5501
 }

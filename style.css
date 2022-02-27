@@ -490,4 +490,17 @@ form #submit {
   -webkit-margin-before: 50px;
           margin-block-start: 50px;
 }
+
+.questions {
+  text-align: center;
+}
+
+.questions label {
+  font-family: "Roboto", sans-serif;
+  color: #8cbf3f;
+}
+
+.questions input {
+  border: 3px solid #9453a6;
+}
 /*# sourceMappingURL=style.css.map */
